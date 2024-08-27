@@ -1,0 +1,25 @@
+h1
+{
+	text-align: center;
+	border-style: solid;
+	border-color: #A0DDA0;
+	border-radius: 15px;
+	background-color: gray;
+}
+
+table, th, td
+{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+table
+{
+	table-layout: auto;
+	max-width: 100%;
+}
+
+th
+{
+	text-align: center;
+}
