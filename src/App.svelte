@@ -102,18 +102,18 @@
 </nav>
 
 <main class="flex flex-col p-2">
-    <section id="about">
+    <section id="about" class="scroll-mt-5">
         <Intro></Intro>
     </section>
 
-    <section id="work">
+    <section id="work" class="scroll-mt-5">
         <h1>Berufserfahrung</h1>
         {#each experiences as exp}
             <WorkExperience {...exp} />
         {/each}
     </section>
 
-    <section id="projects">
+    <section id="projects" class="scroll-mt-5">
         <h1>Projekte</h1>
         {#each projects as project}
             <Projects {...project} />
